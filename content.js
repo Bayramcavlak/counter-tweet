@@ -25,7 +25,7 @@ function updateCounter() {
   dailyTweetCount++;
   totalTweetCount++;
 
-  counterElement.textContent = `Günlük: ${dailyTweetCount} - Kalan: ${
+  counterElement.textContent = `Daily: ${dailyTweetCount} - Remaining: ${
     MAX_TOTAL_TWEETS - totalTweetCount
   }`;
 
